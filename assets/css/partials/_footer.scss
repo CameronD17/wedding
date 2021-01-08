@@ -1,0 +1,12 @@
+.social-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+    padding: 1px 12px !important;
+    color: $body-text-colour;
+
+    &:hover, &:focus {
+        color: $link-hover-colour;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,21 @@
+.calendar-icons {
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  font-size: 0px;
+}
+
+.calendar-icon {
+  margin: 0px 5px 0px 5px;
+  width: 45px;
+  border: 1px solid $accent-colour;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline;
+  background-color: $body-text-colour;
+  transition: all 0.23s ease-in-out 0s;
+  &:hover {
+    background-color: $link-hover-colour;
+    cursor: pointer;
+  }
+}

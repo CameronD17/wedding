@@ -1,0 +1,18 @@
+# Site settings
+title: The Schnitzler-Doyle Wedding
+description: 'Business Card Page'
+url: 'https://schnitzlerdoyle.co.uk'
+baseurl: ''
+
+author:
+  name: Cameron Doyle
+  email: schnitzlerdoyle@gmail.com
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    style: compressed
+    sass_dir: assets/css

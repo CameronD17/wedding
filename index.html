@@ -1,0 +1,20 @@
+---
+layout: default
+robots: noindex
+---
+
+<p>If we've sent you a save-the-date, please send us your address so we know where to send an invite! (Don't worry, this isn't you committing to coming yet, you still have time to think of a better excuse than "washing your hair").</p>
+
+<div class="rsvp-form">
+  <div class="rsvp-form-inner">
+    <form action="https://formspree.io/f/xknppdoy" method="POST">
+      <input type="email" value="" name="_replyto" class="email" placeholder=" Email Address" required>
+      <input type="text" value="" name="name" class="name" placeholder=" Name" required>
+      <input type="text" value="" name="plus-one" class="name" placeholder=" +1 Name (Optional)">
+      <textarea name="address" class="address" placeholder=" Address" required></textarea>
+      <button type="submit">Send Me An Invite!</button>
+    </form>
+  </div>
+</div>
+
+{% include addevent.html %}
